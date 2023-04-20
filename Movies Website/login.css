@@ -1,0 +1,85 @@
+body{
+    background:#1db954;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.loginbox{
+    width: 400px;
+    height: 452px;
+    background:black;
+    color: white;
+    margin: 150px auto;
+    border-radius: 10px;
+   
+}
+
+h1{
+    text-align: center;
+    margin-top: -60px;
+    padding-top: 50px;
+}
+
+label{
+    font-size: 18px;
+    display: block;
+    margin-left: 20px;
+}
+
+input{
+    width: 90%;
+    margin: 0 0 20px 20px;
+}
+
+input[type="text"],input[type="password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    height: 40px;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color:#FFA500; 
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left:0 5px; 
+    width: 45%; 
+    margin-left: 100px;
+    margin-top: 45px;
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left:30%;
+  
+}
+.forgot{
+    margin-top: -28%;
+    margin-left: -35%;
+    
+}
+.signup{
+    margin-left:-10%;
+    margin-top: 20%;
+
+
+}
+span{
+    color: #FFA500;
+}
+.forgot a{
+    color: #FFA500;
+}
+input[type="submit"]:hover{
+    background-color: #FFA500;
+     
+}
